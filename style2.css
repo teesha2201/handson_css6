@@ -1,0 +1,64 @@
+
+/*page2*/
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}/*
+ol li{
+    margin-left: 700px;
+    row-gap: 50px;
+}*/
+li{
+    margin-top: 10px;
+}
+.box1 , .box2 , .box3 , .box4 , .box5 , .box6 , .box7{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(144,198,51);
+    transition: height 4s ,width 2s;
+}
+.box1:hover{
+    width: 400px;
+    height: 100px;
+    transition-timing-function: linear;
+}
+.box2:hover{
+    width: 300px;
+    height: 300px;
+}
+.box3:hover{
+    width: 400px;
+    height: 100px;
+    transition-timing-function: ease-in;
+}
+.box4:hover{
+    width: 400px;
+    height: 100px;
+    transition-timing-function: ease-out;
+}
+.box5:hover{
+    width: 400px;
+    height: 100px;
+    transition-timing-function: ease-in-out;
+}
+.box6:hover{
+    width: 400px;
+    height: 100px;
+    transition-timing-function: ease;
+}
+.box7:hover{
+     width: 400px;
+    height: 100px;
+    transition-timing-function: ease-in;
+}
+

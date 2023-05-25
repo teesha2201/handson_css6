@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(254,248,72) ;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+ol li{
+    display: flex;
+    column-gap: 50px;
+    margin: 80px 0 0 550px;
+}
+.sq1{
+    background-color: darkcyan;
+    width: 100px;
+    height: 100px;
+    animation: sq1 5s infinite;
+}
+@keyframes sq1{
+    0%{
+      transform: matrix(1,-0.3,0,1,0,0);  
+    }
+    100%{
+        transform: matrix(1,0.5,0,1,0,0);
+    }
+}
+.sq2{
+    background-color: darkgrey;
+    width: 100px;
+    height: 100px;
+    animation: sq2 5s infinite;
+}
+@keyframes sq2{
+    0%{
+        transform: matrix(-1,-0.7,0,1,0,0);
+    }
+    100%{
+        transform: matrix(-1,0.5,0,1,0,0);
+    }
+}
+.sq3{
+    background-color:  rgb(81, 137, 145);
+    width: 100px;
+    height: 100px; 
+    animation: sq3 2s infinite;
+}
+@keyframes sq3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+.sq4_1{
+    background-color: rgb(81, 137, 145);
+    width: 100px;
+    height: 100px;
+    animation: box_1 2s infinite;
+}
+@keyframes box_1{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1,0.5);
+    }
+}
+.sq4_2{
+    background-color: rgb(89, 42, 32);
+    width: 100px;
+    height: 100px;
+    animation: box_2 2s infinite;
+}
+@keyframes box_2{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(0.5,1);
+    }
+}
+.sq4_3{
+    background-color:rgb(53, 92, 42);
+    width: 100px;
+    height: 100px;
+    animation: box_3 2s infinite;
+}
+@keyframes box_3{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(-1turn);
+    }
+}
